@@ -1,3 +1,5 @@
+# cacheInverse calculates the inverse of the matrix returned by makeCacheMatrix
+
 cacheInverse <- function(x, ...) {
   m <- x$getInverse()
   if(!is.null(m)) {
